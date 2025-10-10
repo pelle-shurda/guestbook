@@ -1,0 +1,79 @@
+[
+    {
+        "name": "pelle",
+        "email": "pelle.wahlen@skola.taby.se",
+        "phone": "123-45-678",
+        "comment": "Hej hej hej älskar din hemsida",
+        "time": "2025-10-10 13:21:45"
+    },
+    {
+        "name": "joel blud",
+        "email": "test@mail",
+        "phone": "123-45-678",
+        "comment": "Hej hej hej dålig hemsida",
+        "time": "2025-10-10 13:23:02"
+    },
+    {
+        "name": "test",
+        "email": "test@mail",
+        "phone": "123-45-678",
+        "comment": "Test med message",
+        "time": "2025-10-10 15:14:03"
+    },
+    {
+        "name": "Pelle",
+        "email": "pelle.wahlen@skola.taby.se",
+        "phone": "070-120-1122",
+        "comment": "test med nummret",
+        "time": "2025-10-10 15:30:39"
+    },
+    {
+        "name": "test nummer",
+        "email": "test@mail",
+        "phone": "073-023-4065",
+        "comment": "man måste skriva - ",
+        "time": "2025-10-10 15:34:30"
+    },
+    {
+        "name": "Pelle",
+        "email": "pelle.wahlen@skola.taby.se",
+        "phone": "073-023-4065",
+        "comment": "Final TEST",
+        "time": "2025-10-10 15:41:31"
+    },
+    {
+        "name": "pelle",
+        "email": "meil",
+        "phone": "000-000-0000",
+        "comment": "LÅNGT MEDDELANDE TEST\r\nOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+        "time": "2025-10-10 16:55:36"
+    },
+    {
+        "name": "Pelle Wåhlén",
+        "email": "pelle.wahlen@skola.taby.se",
+        "phone": "123-456-7890",
+        "comment": "Hej jag älskar denhär hemsidan",
+        "time": "2025-10-10 17:06:23"
+    },
+    {
+        "name": "Pelle ",
+        "email": "pelle.wahlen@skola.taby.se",
+        "phone": "123-123-1234",
+        "comment": "Final version",
+        "time": "2025-10-10 17:11:05"
+    },
+    {
+        "name": "pelle",
+        "email": "gäst@mail.se",
+        "phone": "123-123-1234",
+        "comment": "FINAL final version",
+        "time": "2025-10-10 17:28:27"
+    },
+    {
+        "name": "pelle",
+        "email": "pelle.wahlen@skola.taby.se",
+        "phone": "123-456-7890",
+        "comment": "okej dethär är FIIINAL version",
+        "time": "2025-10-10 17:42:33"
+    }
+]

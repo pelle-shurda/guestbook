@@ -2,32 +2,47 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pelles Gästbok</title>
     <link rel="stylesheet" href="/static/guestbook.css">
 </head>
 <body>
     <h1>Pelles Gästbok</h1>
-    <form action="" method="post" enctype="multipart/form-data">
-        Namn:
-        <input type="text" name="name" id="name">
-        <br><br>
+    <form class="form-box" action="" method="post">
+        <label for="name">Namn:</label>
+        <br>
+        <input type="text" name="name" id="name" required>
+        <br>
 
-        Email:
+        <label for="email">Email:</label>
+        <br>
         <input type="text" name="email" id="email">
-        <br><br>
+        <br>
 
-        Telefonnummer:
-        <input type="tel" name="phone" id="phone"><!-- pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" -->
-        <br><br>
+        <label for="phone">Telefonnummer:</label>
+        <br>
+        <input type="tel" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="XXX-XXX-XXXX">
+        <br>
 
-        Meddelande:
-        <textarea name="textbox" id="textbox" rows="5" cols="50" style="vertical-align: top;"></textarea>
-        <br><br>
+        <label for="comment">Meddelande:</label>
+        <br>
+        <textarea name="comment" id="comment" rows="5" cols="50"></textarea>
+        <br>
 
-        <input type="submit" name="skicka" id="submit">
+        <button type="submit" id="submit">Skicka</button>
     </form>
     <hr>
     <h2>Inlägg</h2>
+    {% if messages %}
+        {% for message in messages %}
+            <div class="message-box">
+                <p class="message-name">{{ message.name }}</p>
+                <p class="message-time">({{ message.time }}):</p>
+                <p>{{ message.comment }}</p>
+            </div>
+        {% endfor %}
+    {% else %}
+        <p>Inga inlägg ännu.</p>
+    {% endif %}
 </body>
 </html>

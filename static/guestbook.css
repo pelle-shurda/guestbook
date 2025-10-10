@@ -1,11 +1,37 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 1em;
-
 }
 
 h1 {
     font-size: xx-large;
+    font-weight: bold;
+}
+
+.form-box {
+    display: block;
+    background: #e8e8e8;
+    border: 1px solid #868686;
+    border-radius: 8px;
+    padding: 1em;
+    margin-bottom: 1.5em;
+    width: 40%;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input, textarea {
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-top: 0.5vh;
+    margin-bottom: 1em;
+}
+
+#comment {
+    vertical-align: top;
+    resize: none;
 }
 
 #submit {
@@ -13,4 +39,25 @@ h1 {
     border-radius: 5px;
     border: 1px solid rgb(0, 0, 0);
     cursor: pointer;
+}
+
+.message-box {
+    background: #e8e8e8;
+    border: 1px solid #868686;
+    border-radius: 8px;
+    padding: 2px 1em;
+    margin-bottom: 1.5em;
+    width: 30%;
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
+
+.message-name {
+    font-size: large;
+    font-weight: bold;
+}
+
+.message-time {
+    font-size: small;
+    margin-top: -1em;
 }
